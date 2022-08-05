@@ -16,7 +16,7 @@ The following are the minimal [recommended requirements](https://github.com/Budi
 * **Public Cloud**: More than 20+ major Cloud such as AWS, Azure, Google Cloud, Alibaba Cloud, HUAWEIClOUD, Tencent Cloud
 * **Private Cloud**: KVM, VMware, VirtualBox, OpenStack
 * **ARCH**:  Linux x86-64, ARM 32/64, x86/i686
-* **RAM**: 4 GB or more
+* **RAM**: 6 GB or more
 * **CPU**: 2 cores or higher
 * **HDD**: at least 20 GB of free space
 * **Swap file**: at least 2 GB
