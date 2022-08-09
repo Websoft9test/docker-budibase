@@ -7,7 +7,7 @@ services:
   app-service:
     restart: unless-stopped
     image: budibase.docker.scarf.sh/budibase/apps
-    container_name: $APP_NAME-bbapps
+    container_name: $APP_NAME
     environment:
       SELF_HOSTED: 1
       COUCH_DB_URL: http://${COUCH_DB_USER}:${COUCH_DB_PASSWORD}@couchdb-service:5984
@@ -71,7 +71,7 @@ services:
       retries: 3
 
   proxy-service:
-    container_name: $APP_NAME
+    container_name: $APP_NAME-proxy
     restart: unless-stopped
     ports:
       - "${MAIN_PORT}:10000"
